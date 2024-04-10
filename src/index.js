@@ -3,34 +3,34 @@ let xpDoHeroi = 1000
 
 switch (xpDoHeroi){
     case 1000:
-    console.log("O Herói de nome " + nomeDoHeroi + "está no nível de Ferro")
-    break
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Ferro")
+    break;
 
     case 2000:
-    console.log("Bronze")
+        console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Bronze")
     break
 
     case 5000:
-    console.log("Prata")
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Prata")
     break
 
     case 7000:
-    console.log("Ouro")
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Ouro")
     break
 
     case 8000:
-    console.log("Platina")
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Platina")
     break
 
     case 9000:
-    console.log("Ascendente")
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Ascendente")
     break
 
     case 10000:
-    console.log("Imortal")
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Imortal")
     break
 
     default:
-    console.log("O Herói de nome " + nomeDoHeroi + "está no nível de Radiante")
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Radiante")
 
 }
