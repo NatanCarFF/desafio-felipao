@@ -1,38 +1,36 @@
-# 1️⃣ Desafio Classificador de nível de Herói
-
 let nomeDoHeroi = "NatanCarFF"
-let xpDoHeroi = 1
+let xpDoHeroi = 1000
 
-switch (xpDoHeroi) {
-    case (xpDoHeroi <= 1000):
-    console.log("O Herói de nome "nomeDoHeroi"está no nível de Ferro")
-        break;
+switch (xpDoHeroi){
+    case 1000:
+    console.log("O Herói de nome " + nomeDoHeroi + "está no nível de Ferro")
+    break
 
-    case (xpDoHeroi <= 2000):
+    case 2000:
     console.log("Bronze")
-        break;
+    break
 
-    case (xpDoHeroi <= 5000):
+    case 5000:
     console.log("Prata")
-        break;
+    break
 
-    case (xpDoHeroi <= 7000):
+    case 7000:
     console.log("Ouro")
-        break;
+    break
 
-    case (xpDoHeroi <= 8000):
+    case 8000:
     console.log("Platina")
-        break;
+    break
 
-    case (xpDoHeroi <= 9000):
+    case 9000:
     console.log("Ascendente")
-        break;
+    break
 
-    case (xpDoHeroi <= 10000):
+    case 10000:
     console.log("Imortal")
-        break;
+    break
 
     default:
-    console.log("Radiante")
+    console.log("O Herói de nome " + nomeDoHeroi + "está no nível de Radiante")
 
 }
