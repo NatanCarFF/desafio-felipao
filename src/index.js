@@ -1,36 +1,20 @@
 let nomeDoHeroi = "NatanCarFF"
-let xpDoHeroi = 1000
+let xpDoHeroi = 7100
 
-switch (xpDoHeroi){
-    case 1000:
+if (xpDoHeroi < 1000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Ferro")
-    break;
-
-    case 2000:
-        console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Bronze")
-    break
-
-    case 5000:
+} else if (xpDoHeroi < 2000) {
+    console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Bronze")
+} else if (xpDoHeroi < 5000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Prata")
-    break
-
-    case 7000:
+} else if (xpDoHeroi < 7000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Ouro")
-    break
-
-    case 8000:
+} else if (xpDoHeroi < 8000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Platina")
-    break
-
-    case 9000:
+} else if (xpDoHeroi < 9000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Ascendente")
-    break
-
-    case 10000:
+} else if (xpDoHeroi < 10000) {
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Imortal")
-    break
-
-    default:
+} else{
     console.log("O Herói de nome " + nomeDoHeroi + " está no nível de Radiante")
-
 }
